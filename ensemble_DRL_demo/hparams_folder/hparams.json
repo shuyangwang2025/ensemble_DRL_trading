@@ -1,1 +1,22 @@
-
+{
+  "seed": 42,
+  "gamma": 0.99,
+  "lam": 0.95,
+  "lstm_n_units": 64,
+  "lstm_n_layers": 2,
+  "fc_units": 16,
+  "lr_init": 5e-6,
+  "c0": 100.0,
+  "c1": 1.0,
+  "c2": 1.0,
+  "n_workers": 4,
+  "sample_length": 1500,
+  "n_episodes": 100,
+  "init_balance": 1000000.0,
+  "init_coin": {"XBT": 0.0, "ETH": 0.0, "XRP": 0.0, "BCH": 0.0, "LTC": 0.0},
+  "hmax": 70,
+  "norm_hmax": true,
+  "n_past": 12,
+  "n_actions": 5,
+  "optim": "Adam"
+}
