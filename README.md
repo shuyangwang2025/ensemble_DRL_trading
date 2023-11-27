@@ -1,6 +1,6 @@
 # An Ensemble Method of DRL for Cryptocurrency Trading
 
-The code repository for the manuscript "An Ensemble Method of Deep Reinforcement Learning for Cryptocurrency Trading", including the implementation of the ensemble method proposed in the paper using a mixture distribution.
+The code repository for the manuscript "An Ensemble Method of Deep Reinforcement Learning for Cryptocurrency Trading", including the implementation of the proposed ensemble method using a mixture distribution.
 
 The structure of the code files is as follows.
 ```angular2html
