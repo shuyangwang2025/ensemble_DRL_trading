@@ -1,0 +1,10 @@
+{
+  "coin_list": ["XBT", "ETH", "BCH", "XRP", "LTC"],
+  "technical_indicators": ["rsi", "cci", "macd", "adx", "atr", "close_30_sma", "close_60_sma"],
+  "train_start": "2018-01-01",
+  "train_period": 6,
+  "validation_period": 1,
+  "test_period": 1,
+  "n_models": 9,
+  "n_past": 12
+}
