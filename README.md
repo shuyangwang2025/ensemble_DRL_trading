@@ -44,4 +44,4 @@ The program uses command line arguments to specify the hyperparameters file and 
 `utils.py` defines useful functions for logging progress and handling hyperparameters.
 
 ### 4. Evaluation
-`evaluate_ensemble.py` evaluate the performance of the ensemble of the trained models on all granular test periods. The command line argument specifies the number of models to be used in the ensemble. The results and visualization of the trading behavior are stored at `training_results/ensemble_test_results`.
+`evaluate_ensemble.py` evaluates the performance of the ensemble of the trained models on all granular test periods. The command line argument specifies the number of models to be used in the ensemble. The results and visualization of the trading behavior are stored at `training_results/ensemble_test_results`.
