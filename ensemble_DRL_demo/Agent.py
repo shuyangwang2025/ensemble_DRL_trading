@@ -426,7 +426,7 @@ class Agent:
         clipped_value = samples['values'] + (value - samples['values']).clamp(min=-clip_range, max=clip_range)
         vf_loss = torch.max((value - sampled_return) ** 2, (clipped_value - sampled_return) ** 2)
         vf_loss = 0.5 * vf_loss.nanmean()
-        loss = -self.hparams.c0 * policy_reward + self.hparams.c1 * vf_loss + self.hparams.c2 * entropy_bonus
+        loss = -self.hparams.c1 * policy_reward - self.hparams.c2 * vf_loss - self.hparams.c3 * entropy_bonus
 
         # Return the loss to take a gradient step, the components for monitor purpose
         return loss, entropy_bonus, policy_reward, vf_loss
